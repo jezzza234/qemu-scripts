@@ -1,0 +1,4 @@
+#!/bin/sh
+#
+TAPDEV="$1" BRIDGEDEV="bridge5" #
+ifconfig $BRIDGEDEV addm $TAPDEV
